@@ -37,7 +37,7 @@ module.exports = merge(CommonWebpackConfig, {
   output: {
     filename: "js/[name].js",
     pathinfo: false,
-    publicPath: "",
+    publicPath: "/",
     clean: true,
   },
 
