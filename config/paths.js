@@ -1,13 +1,12 @@
 const path = require("path");
 
-const root = path.join(__dirname, "./");
+const root = path.join(__dirname, "../");
 const dist = path.join(root, "build");
 const lib = path.join(root, "lib");
 const src = path.join(root, "src");
 
 const assets = path.join(src, "assets");
 const icons = path.join(assets, "icons");
-const favicon = path.join(assets, "favicon");
 
 const views = path.join(src, "views");
 const cache = path.join(views, ".cache");
@@ -21,7 +20,6 @@ module.exports = {
   lib,
   src,
   assets,
-  favicon,
   icons,
   views,
   cache,
